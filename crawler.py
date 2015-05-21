@@ -1,4 +1,4 @@
-__author__ = 'xinyu'
+__author__ = 'lnu'
 
 
 import tweepy
@@ -9,10 +9,10 @@ from pymongo import MongoClient
     Variables that contains the user credentials to access Twitter API
     Use your own token & key to replace
 '''
-access_token = "752969209-kYFzZn4VuEA1VvMyB9ShmMdWDKrp9bxXGGSAAPzQ"
-access_token_secret = "YYFcHDUpfdSrJGynkaPQLoJh6MMmWOPiqdVxcJecCzHhH"
-consumer_key = "vHmZy6gjoxrOwXYdDpGhngwJd"
-consumer_secret = "Wxc6tPaPub2oTLwA5yWd5tJASIKTYzQFaALOwETojPfEdRCM0i"
+access_token = " "
+access_token_secret = " "
+consumer_key = " "
+consumer_secret = " "
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -154,5 +154,5 @@ def get_timeline():
 
 if __name__ == '__main__':
     #base_users()
-    more_users()
+    #more_users()
     #get_timeline()
