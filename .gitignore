@@ -1,0 +1,2 @@
+#files would be ignored by git
+*.DS_Store
